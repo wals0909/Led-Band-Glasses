@@ -1,22 +1,4 @@
-/* ht13.c
- * compile: gcc -O2 ht13.c -lftdi -lncurses -o ht13
- * this program transmits dmx-style rgb packets
- * modified to adjust to software PWM on the Mrfs
- * broadcasts from PC/Xbee to Mrf/Arduino
- *
- * really going to try constant broadcast this time
- * and... it flickers really badly on holds
- *
- * Benjamin Jeffery
- * University of Idaho
- * 11/11/2015
- * millisec() is copied from unicon/src/common/time.c
- * for testing purposes. Thanks Clint
- *
- * Some minor edits/cleanup by Lucas Jackson
- * University of Idaho
- * 10/27/2020
- */
+
 
 #include <ftdi.h>
 #include <stdio.h>
